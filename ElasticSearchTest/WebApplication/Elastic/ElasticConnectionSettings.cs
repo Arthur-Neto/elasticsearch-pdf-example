@@ -4,18 +4,17 @@
     {
         public string ClusterUrl { get; set; }
 
+        private string _defaultIndex;
         public string DefaultIndex
         {
             get
             {
-                return this.defaultIndex;
+                return _defaultIndex;
             }
             set
             {
-                this.defaultIndex = value.ToLower();
+                _defaultIndex = value.ToLower();
             }
         }
-
-        private string defaultIndex;
     }
 }

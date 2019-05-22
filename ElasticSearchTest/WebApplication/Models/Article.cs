@@ -1,9 +1,8 @@
 ﻿namespace WebApplication.Models
 {
-    public class AutocompleteResult
+    public class Article
     {
         public string Id { get; set; }
-
-        public string Titulo { get; set; }
+        public string Title { get; set; }
     }
 }

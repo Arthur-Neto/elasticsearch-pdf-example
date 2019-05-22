@@ -21,7 +21,7 @@ namespace WebApplication.Elastic
                 connectionSettings.DefaultIndex(settings.Value.DefaultIndex);
             }
             // Create the actual client
-            this.Client = new ElasticClient(connectionSettings);
+            Client = new ElasticClient(connectionSettings);
         }
 
         public ElasticClient Client { get; }

@@ -26,8 +26,6 @@ namespace WebApplication
             services.Configure<ElasticConnectionSettings>(Configuration.GetSection("ElasticConnectionSettings"));
             // Register the client provider as a singleton
             services.AddSingleton(typeof(ElasticClientProvider));
-            services.AddTransient(typeof(DataIndexer));
-            services.AddTransient(typeof(SearchService));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
