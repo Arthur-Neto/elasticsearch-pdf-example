@@ -24,7 +24,11 @@ namespace WebApplication.Services
                 Id = 1,
                 Path = path,
                 Content = base64File
-            }, i => i.Pipeline("attachments"));
+            }, i => i
+                .Index("article_index")
+                .Pipeline("articles_pipeline")
+                .Timeout("5m")
+            );
 
             return indexReturn;
         }

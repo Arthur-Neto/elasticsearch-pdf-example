@@ -19,7 +19,7 @@ namespace WebApplication.Controllers
         {
             var result = await _indexService.CreateArticleIndex();
 
-            return View(result);
+            return Json(result);
         }
     }
 }

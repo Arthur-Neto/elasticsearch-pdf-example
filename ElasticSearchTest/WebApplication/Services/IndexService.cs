@@ -16,50 +16,52 @@ namespace WebApplication.Services
 
         public async Task<ICreateIndexResponse> CreateArticleIndex()
         {
-            var indexResponse = await _esProvider.Client.CreateIndexAsync("articleIndex", c => c
-              .Settings(s => s
-                .Analysis(a => a
-                  .Analyzers(ad => ad
-                    .Custom("windows_path_hierarchy_analyzer", ca => ca
-                      .Tokenizer("windows_path_hierarchy_tokenizer")
+            var indexResponse = await _esProvider.Client.CreateIndexAsync("article_index", c => c
+                .Settings(s => s
+                    .Analysis(a => a
+                        .Analyzers(ad => ad
+                            .Custom("windows_path_hierarchy_analyzer", ca => ca
+                                .Tokenizer("windows_path_hierarchy_tokenizer")
+                            )
+                        )
+                        .Tokenizers(t => t
+                            .PathHierarchy("windows_path_hierarchy_tokenizer", ph => ph
+                                .Delimiter('\\')
+                            )
+                        )
                     )
-                  )
-                  .Tokenizers(t => t
-                    .PathHierarchy("windows_path_hierarchy_tokenizer", ph => ph
-                      .Delimiter('\\')
-                    )
-                  )
                 )
-              )
-              .Mappings(m => m
-                .Map<Article>(mp => mp
-                  .AutoMap()
-                  .AllField(all => all
-                    .Enabled(false)
-                  )
-                  .Properties(ps => ps
-                    .Text(s => s
-                      .Name(n => n.Path)
-                      .Analyzer("windows_path_hierarchy_analyzer")
+                .Mappings(m => m
+                    .Map<Article>(mp => mp
+                        .AutoMap()
+                        .AllField(all => all
+                            .Enabled(false)
+                        )
+                        .Properties(ps => ps
+                            .Text(s => s
+                                .Name(n => n.Path)
+                                .Analyzer("windows_path_hierarchy_analyzer")
+                            )
+                            .Text(s => s
+                                .Name(n => n.Content)
+                                .TermVector(TermVectorOption.WithPositionsOffsets)
+                            )
+                            .Object<Attachment>(a => a
+                                .Name(n => n.Attachment)
+                                .AutoMap()
+                             )
+                        )
                     )
-                    .Object<Attachment>(a => a
-                      .Name(n => n.Attachment)
-                      .AutoMap()
-                    )
-                  )
                 )
-              )
             );
 
-            _esProvider.Client.PutPipeline("articles", p => p
-              .Description("Article attachment pipeline")
+            var mappingResponse = await _esProvider.Client.GetMappingAsync<Article>();
+
+            await _esProvider.Client.PutPipelineAsync("articles_pipeline", p => p
               .Processors(pr => pr
                 .Attachment<Article>(a => a
                   .Field(f => f.Content)
                   .TargetField(f => f.Attachment)
-                )
-                .Remove<Article>(r => r
-                  .Field(f => f.Content)
                 )
               )
             );

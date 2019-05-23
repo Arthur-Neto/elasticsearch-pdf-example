@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WebApplication.Elastic;
+using WebApplication.Services;
 
 namespace WebApplication
 {
@@ -26,6 +27,8 @@ namespace WebApplication
             services.Configure<ElasticConnectionSettings>(Configuration.GetSection("ElasticConnectionSettings"));
             // Register the client provider as a singleton
             services.AddSingleton(typeof(ElasticClientProvider));
+            services.AddTransient(typeof(IndexService));
+            services.AddTransient(typeof(ArticleService));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
