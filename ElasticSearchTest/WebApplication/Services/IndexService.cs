@@ -16,6 +16,8 @@ namespace WebApplication.Services
 
         public async Task<ICreateIndexResponse> CreateArticleIndex()
         {
+            await _esProvider.Client.DeleteIndexAsync("article_index");
+
             var indexResponse = await _esProvider.Client.CreateIndexAsync("article_index", c => c
                 .Settings(s => s
                     .Analysis(a => a
@@ -42,10 +44,6 @@ namespace WebApplication.Services
                                 .Name(n => n.Path)
                                 .Analyzer("windows_path_hierarchy_analyzer")
                             )
-                            .Text(s => s
-                                .Name(n => n.Content)
-                                .TermVector(TermVectorOption.WithPositionsOffsets)
-                            )
                             .Object<Attachment>(a => a
                                 .Name(n => n.Attachment)
                                 .AutoMap()
@@ -55,18 +53,27 @@ namespace WebApplication.Services
                 )
             );
 
-            var mappingResponse = await _esProvider.Client.GetMappingAsync<Article>();
 
             await _esProvider.Client.PutPipelineAsync("articles_pipeline", p => p
-              .Processors(pr => pr
-                .Attachment<Article>(a => a
-                  .Field(f => f.Content)
-                  .TargetField(f => f.Attachment)
+                .Processors(pr => pr
+                    .Attachment<Article>(a => a
+                      .Field(f => f.Content)
+                      .TargetField(f => f.Attachment)
+                    )
+                    .Remove<Article>(r => r
+                        .Field(f => f.Content)
+                    )
                 )
-              )
             );
 
             return indexResponse;
+        }
+
+        public async Task<IGetMappingResponse> GetMappedIndexes()
+        {
+            var mappingResponse = await _esProvider.Client.GetMappingAsync<Article>();
+
+            return mappingResponse;
         }
     }
 }

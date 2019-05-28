@@ -15,11 +15,21 @@ namespace WebApplication.Controllers
         }
 
         [HttpGet]
+        [Route("create")]
         public async Task<IActionResult> CreateArticleIndex()
         {
             var result = await _indexService.CreateArticleIndex();
 
-            return Json(result);
+            return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("mapped")]
+        public async Task<IActionResult> GetIndexes()
+        {
+            var result = await _indexService.GetMappedIndexes();
+
+            return Ok(result);
         }
     }
 }

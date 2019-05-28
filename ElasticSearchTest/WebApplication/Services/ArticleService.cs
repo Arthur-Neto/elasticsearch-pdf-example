@@ -21,7 +21,6 @@ namespace WebApplication.Services
             var base64File = Convert.ToBase64String(File.ReadAllBytes(path));
             var indexReturn = await _esProvider.Client.IndexAsync(new Article
             {
-                Id = 1,
                 Path = path,
                 Content = base64File
             }, i => i

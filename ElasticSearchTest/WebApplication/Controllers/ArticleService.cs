@@ -15,19 +15,21 @@ namespace WebApplication.Controllers
         }
 
         [HttpGet]
+        [Route("index")]
         public async Task<IActionResult> IndexArticleByPath([FromQuery]string path)
         {
             var result = await _articleService.IndexArticleByPath(path);
 
-            return View(result);
+            return Ok(result);
         }
 
         [HttpGet]
+        [Route("search")]
         public async Task<IActionResult> SearchArticles([FromQuery]string query)
         {
             var result = await _articleService.SearchArticles(query);
 
-            return View(result);
+            return Ok(result);
         }
     }
 }
