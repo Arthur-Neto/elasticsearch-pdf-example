@@ -1,4 +1,4 @@
-# ElasticSearchPDFExample
+# Elasticsearch PDF Example
 
 Small example using Elasticsearch 6.7.0 with .NET Core 2.2 and NEST for indexing PDF or any? files.
 
