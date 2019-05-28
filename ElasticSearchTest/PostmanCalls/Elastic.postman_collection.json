@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Create Indexes",
+			"name": "CreateIndex",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -27,7 +27,7 @@
 			"response": []
 		},
 		{
-			"name": "Is-Alive",
+			"name": "IsAlive",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -61,12 +61,12 @@
 			"response": []
 		},
 		{
-			"name": "IndexByPath",
+			"name": "IndexArticleByPath",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:49793/api/article/index?path=C:\\Users\\arthu\\source\\repos\\ElasticSearchPDFExample\\ElasticSearchTest\\ExamplePDFs\\ArthurNeto.pdf",
+					"raw": "http://localhost:49793/api/article/index?path=C:\\temp\\arthur.pdf",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -80,7 +80,7 @@
 					"query": [
 						{
 							"key": "path",
-							"value": "C:\\Users\\arthu\\source\\repos\\ElasticSearchPDFExample\\ElasticSearchTest\\ExamplePDFs\\ArthurNeto.pdf"
+							"value": "C:\\temp\\arthur.pdf"
 						}
 					]
 				}
@@ -88,7 +88,7 @@
 			"response": []
 		},
 		{
-			"name": "Query",
+			"name": "QueryArticleIndex",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -115,7 +115,7 @@
 			"response": []
 		},
 		{
-			"name": "Mapped",
+			"name": "MappedIndexes",
 			"request": {
 				"method": "GET",
 				"header": [],
