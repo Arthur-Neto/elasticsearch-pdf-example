@@ -1,0 +1,405 @@
+{
+	"aggregations": {},
+	"aggs": {},
+	"clusters": null,
+	"documents": [{
+			"path": "C:\\temp\\qwe.pdf",
+			"content": null,
+			"attachment": {
+				"author": null,
+				"containsMetadata": true,
+				"content": "qwe",
+				"contentLength": 8,
+				"contentType": "application/pdf",
+				"date": null,
+				"detectLanguage": null,
+				"indexedCharacters": null,
+				"keywords": null,
+				"language": "lt",
+				"name": null,
+				"title": null
+			}
+		}, {
+			"path": "C:\\temp\\ArthurNeto.pdf",
+			"content": null,
+			"attachment": {
+				"author": null,
+				"containsMetadata": true,
+				"content": "Arthur Santos Neto",
+				"contentLength": 23,
+				"contentType": "application/pdf",
+				"date": null,
+				"detectLanguage": null,
+				"indexedCharacters": null,
+				"keywords": null,
+				"language": "pt",
+				"name": null,
+				"title": null
+			}
+		}, {
+			"path": "C:\\temp\\zxc.pdf",
+			"content": null,
+			"attachment": {
+				"author": null,
+				"containsMetadata": true,
+				"content": "Zxc Arthur",
+				"contentLength": 15,
+				"contentType": "application/pdf",
+				"date": null,
+				"detectLanguage": null,
+				"indexedCharacters": null,
+				"keywords": null,
+				"language": "is",
+				"name": null,
+				"title": null
+			}
+		}, {
+			"path": "C:\\temp\\asd.pdf",
+			"content": null,
+			"attachment": {
+				"author": null,
+				"containsMetadata": true,
+				"content": "asd",
+				"contentLength": 8,
+				"contentType": "application/pdf",
+				"date": null,
+				"detectLanguage": null,
+				"indexedCharacters": null,
+				"keywords": null,
+				"language": "lt",
+				"name": null,
+				"title": null
+			}
+		}
+	],
+	"fields": [null, null, null, null],
+	"hits": [{
+			"explanation": null,
+			"fields": null,
+			"highlights": {},
+			"id": "c2sT_GoBjtYVaWG4__f2",
+			"index": "article_index",
+			"innerHits": {},
+			"matchedQueries": [],
+			"nested": null,
+			"parent": null,
+			"routing": null,
+			"score": 1.0,
+			"sorts": [],
+			"source": {
+				"path": "C:\\temp\\qwe.pdf",
+				"content": null,
+				"attachment": {
+					"author": null,
+					"containsMetadata": true,
+					"content": "qwe",
+					"contentLength": 8,
+					"contentType": "application/pdf",
+					"date": null,
+					"detectLanguage": null,
+					"indexedCharacters": null,
+					"keywords": null,
+					"language": "lt",
+					"name": null,
+					"title": null
+				}
+			},
+			"type": "article",
+			"version": null
+		}, {
+			"explanation": null,
+			"fields": null,
+			"highlights": {},
+			"id": "cWsS_GoBjtYVaWG4pfdW",
+			"index": "article_index",
+			"innerHits": {},
+			"matchedQueries": [],
+			"nested": null,
+			"parent": null,
+			"routing": null,
+			"score": 1.0,
+			"sorts": [],
+			"source": {
+				"path": "C:\\temp\\ArthurNeto.pdf",
+				"content": null,
+				"attachment": {
+					"author": null,
+					"containsMetadata": true,
+					"content": "Arthur Santos Neto",
+					"contentLength": 23,
+					"contentType": "application/pdf",
+					"date": null,
+					"detectLanguage": null,
+					"indexedCharacters": null,
+					"keywords": null,
+					"language": "pt",
+					"name": null,
+					"title": null
+				}
+			},
+			"type": "article",
+			"version": null
+		}, {
+			"explanation": null,
+			"fields": null,
+			"highlights": {},
+			"id": "dGsU_GoBjtYVaWG4CPdy",
+			"index": "article_index",
+			"innerHits": {},
+			"matchedQueries": [],
+			"nested": null,
+			"parent": null,
+			"routing": null,
+			"score": 1.0,
+			"sorts": [],
+			"source": {
+				"path": "C:\\temp\\zxc.pdf",
+				"content": null,
+				"attachment": {
+					"author": null,
+					"containsMetadata": true,
+					"content": "Zxc Arthur",
+					"contentLength": 15,
+					"contentType": "application/pdf",
+					"date": null,
+					"detectLanguage": null,
+					"indexedCharacters": null,
+					"keywords": null,
+					"language": "is",
+					"name": null,
+					"title": null
+				}
+			},
+			"type": "article",
+			"version": null
+		}, {
+			"explanation": null,
+			"fields": null,
+			"highlights": {},
+			"id": "cmsT_GoBjtYVaWG49vdO",
+			"index": "article_index",
+			"innerHits": {},
+			"matchedQueries": [],
+			"nested": null,
+			"parent": null,
+			"routing": null,
+			"score": 1.0,
+			"sorts": [],
+			"source": {
+				"path": "C:\\temp\\asd.pdf",
+				"content": null,
+				"attachment": {
+					"author": null,
+					"containsMetadata": true,
+					"content": "asd",
+					"contentLength": 8,
+					"contentType": "application/pdf",
+					"date": null,
+					"detectLanguage": null,
+					"indexedCharacters": null,
+					"keywords": null,
+					"language": "lt",
+					"name": null,
+					"title": null
+				}
+			},
+			"type": "article",
+			"version": null
+		}
+	],
+	"hitsMetadata": {
+		"hits": [{
+				"explanation": null,
+				"fields": null,
+				"highlights": {},
+				"id": "c2sT_GoBjtYVaWG4__f2",
+				"index": "article_index",
+				"innerHits": {},
+				"matchedQueries": [],
+				"nested": null,
+				"parent": null,
+				"routing": null,
+				"score": 1.0,
+				"sorts": [],
+				"source": {
+					"path": "C:\\temp\\qwe.pdf",
+					"content": null,
+					"attachment": {
+						"author": null,
+						"containsMetadata": true,
+						"content": "qwe",
+						"contentLength": 8,
+						"contentType": "application/pdf",
+						"date": null,
+						"detectLanguage": null,
+						"indexedCharacters": null,
+						"keywords": null,
+						"language": "lt",
+						"name": null,
+						"title": null
+					}
+				},
+				"type": "article",
+				"version": null
+			}, {
+				"explanation": null,
+				"fields": null,
+				"highlights": {},
+				"id": "cWsS_GoBjtYVaWG4pfdW",
+				"index": "article_index",
+				"innerHits": {},
+				"matchedQueries": [],
+				"nested": null,
+				"parent": null,
+				"routing": null,
+				"score": 1.0,
+				"sorts": [],
+				"source": {
+					"path": "C:\\temp\\ArthurNeto.pdf",
+					"content": null,
+					"attachment": {
+						"author": null,
+						"containsMetadata": true,
+						"content": "Arthur Santos Neto",
+						"contentLength": 23,
+						"contentType": "application/pdf",
+						"date": null,
+						"detectLanguage": null,
+						"indexedCharacters": null,
+						"keywords": null,
+						"language": "pt",
+						"name": null,
+						"title": null
+					}
+				},
+				"type": "article",
+				"version": null
+			}, {
+				"explanation": null,
+				"fields": null,
+				"highlights": {},
+				"id": "dGsU_GoBjtYVaWG4CPdy",
+				"index": "article_index",
+				"innerHits": {},
+				"matchedQueries": [],
+				"nested": null,
+				"parent": null,
+				"routing": null,
+				"score": 1.0,
+				"sorts": [],
+				"source": {
+					"path": "C:\\temp\\zxc.pdf",
+					"content": null,
+					"attachment": {
+						"author": null,
+						"containsMetadata": true,
+						"content": "Zxc Arthur",
+						"contentLength": 15,
+						"contentType": "application/pdf",
+						"date": null,
+						"detectLanguage": null,
+						"indexedCharacters": null,
+						"keywords": null,
+						"language": "is",
+						"name": null,
+						"title": null
+					}
+				},
+				"type": "article",
+				"version": null
+			}, {
+				"explanation": null,
+				"fields": null,
+				"highlights": {},
+				"id": "cmsT_GoBjtYVaWG49vdO",
+				"index": "article_index",
+				"innerHits": {},
+				"matchedQueries": [],
+				"nested": null,
+				"parent": null,
+				"routing": null,
+				"score": 1.0,
+				"sorts": [],
+				"source": {
+					"path": "C:\\temp\\asd.pdf",
+					"content": null,
+					"attachment": {
+						"author": null,
+						"containsMetadata": true,
+						"content": "asd",
+						"contentLength": 8,
+						"contentType": "application/pdf",
+						"date": null,
+						"detectLanguage": null,
+						"indexedCharacters": null,
+						"keywords": null,
+						"language": "lt",
+						"name": null,
+						"title": null
+					}
+				},
+				"type": "article",
+				"version": null
+			}
+		],
+		"maxScore": 1.0,
+		"total": 4
+	},
+	"maxScore": 1.0,
+	"numberOfReducePhases": 0,
+	"profile": null,
+	"scrollId": null,
+	"shards": {
+		"failed": 0,
+		"failures": [],
+		"successful": 5,
+		"total": 5
+	},
+	"suggest": {},
+	"terminatedEarly": false,
+	"timedOut": false,
+	"took": 3,
+	"total": 4,
+	"apiCall": {
+		"auditTrail": [{
+				"ended": "2019-05-28T01:35:58.4673513Z",
+				"event": 10,
+				"exception": null,
+				"node": {
+					"clientNode": false,
+					"deadUntil": "0001-01-01T00:00:00",
+					"failedAttempts": 0,
+					"holdsData": true,
+					"httpEnabled": true,
+					"id": null,
+					"ingestEnabled": false,
+					"isAlive": true,
+					"isResurrected": false,
+					"masterEligible": true,
+					"masterOnlyNode": false,
+					"name": null,
+					"settings": {},
+					"uri": "http://localhost:9200/"
+				},
+				"path": "article_index/article/_search?pretty=true&error_trace=true&typed_keys=true",
+				"started": "2019-05-28T01:35:58.4583266Z"
+			}
+		],
+		"debugInformation": "Successful low level call on POST: /article_index/article/_search?pretty=true&error_trace=true&typed_keys=true\r\n# Audit trail of this API call:\r\n - [1] HealthyResponse: Node: http://localhost:9200/ Took: 00:00:00.0090247\r\n# Request:\r\n{}\r\n# Response:\r\n{\n  \"took\" : 3,\n  \"timed_out\" : false,\n  \"_shards\" : {\n    \"total\" : 5,\n    \"successful\" : 5,\n    \"skipped\" : 0,\n    \"failed\" : 0\n  },\n  \"hits\" : {\n    \"total\" : 4,\n    \"max_score\" : 1.0,\n    \"hits\" : [\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"c2sT_GoBjtYVaWG4__f2\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\qwe.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"lt\",\n            \"content\" : \"qwe\",\n            \"content_length\" : 8\n          }\n        }\n      },\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"cWsS_GoBjtYVaWG4pfdW\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\ArthurNeto.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"pt\",\n            \"content\" : \"Arthur Santos Neto\",\n            \"content_length\" : 23\n          }\n        }\n      },\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"dGsU_GoBjtYVaWG4CPdy\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\zxc.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"is\",\n            \"content\" : \"Zxc Arthur\",\n            \"content_length\" : 15\n          }\n        }\n      },\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"cmsT_GoBjtYVaWG49vdO\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\asd.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"lt\",\n            \"content\" : \"asd\",\n            \"content_length\" : 8\n          }\n        }\n      }\n    ]\n  }\n}\n\r\n",
+		"deprecationWarnings": [],
+		"httpMethod": 1,
+		"httpStatusCode": 200,
+		"originalException": null,
+		"requestBodyInBytes": "e30=",
+		"responseBodyInBytes": "ewogICJ0b29rIiA6IDMsCiAgInRpbWVkX291dCIgOiBmYWxzZSwKICAiX3NoYXJkcyIgOiB7CiAgICAidG90YWwiIDogNSwKICAgICJzdWNjZXNzZnVsIiA6IDUsCiAgICAic2tpcHBlZCIgOiAwLAogICAgImZhaWxlZCIgOiAwCiAgfSwKICAiaGl0cyIgOiB7CiAgICAidG90YWwiIDogNCwKICAgICJtYXhfc2NvcmUiIDogMS4wLAogICAgImhpdHMiIDogWwogICAgICB7CiAgICAgICAgIl9pbmRleCIgOiAiYXJ0aWNsZV9pbmRleCIsCiAgICAgICAgIl90eXBlIiA6ICJhcnRpY2xlIiwKICAgICAgICAiX2lkIiA6ICJjMnNUX0dvQmp0WVZhV0c0X19mMiIsCiAgICAgICAgIl9zY29yZSIgOiAxLjAsCiAgICAgICAgIl9zb3VyY2UiIDogewogICAgICAgICAgInBhdGgiIDogIkM6XFxVc2Vyc1xcYXJ0aHVcXHNvdXJjZVxccmVwb3NcXEVsYXN0aWNTZWFyY2hQREZFeGFtcGxlXFxFbGFzdGljU2VhcmNoVGVzdFxcRXhhbXBsZVBERnNcXHF3ZS5wZGYiLAogICAgICAgICAgImF0dGFjaG1lbnQiIDogewogICAgICAgICAgICAiY29udGVudF90eXBlIiA6ICJhcHBsaWNhdGlvbi9wZGYiLAogICAgICAgICAgICAibGFuZ3VhZ2UiIDogImx0IiwKICAgICAgICAgICAgImNvbnRlbnQiIDogInF3ZSIsCiAgICAgICAgICAgICJjb250ZW50X2xlbmd0aCIgOiA4CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9LAogICAgICB7CiAgICAgICAgIl9pbmRleCIgOiAiYXJ0aWNsZV9pbmRleCIsCiAgICAgICAgIl90eXBlIiA6ICJhcnRpY2xlIiwKICAgICAgICAiX2lkIiA6ICJjV3NTX0dvQmp0WVZhV0c0cGZkVyIsCiAgICAgICAgIl9zY29yZSIgOiAxLjAsCiAgICAgICAgIl9zb3VyY2UiIDogewogICAgICAgICAgInBhdGgiIDogIkM6XFxVc2Vyc1xcYXJ0aHVcXHNvdXJjZVxccmVwb3NcXEVsYXN0aWNTZWFyY2hQREZFeGFtcGxlXFxFbGFzdGljU2VhcmNoVGVzdFxcRXhhbXBsZVBERnNcXEFydGh1ck5ldG8ucGRmIiwKICAgICAgICAgICJhdHRhY2htZW50IiA6IHsKICAgICAgICAgICAgImNvbnRlbnRfdHlwZSIgOiAiYXBwbGljYXRpb24vcGRmIiwKICAgICAgICAgICAgImxhbmd1YWdlIiA6ICJwdCIsCiAgICAgICAgICAgICJjb250ZW50IiA6ICJBcnRodXIgU2FudG9zIE5ldG8iLAogICAgICAgICAgICAiY29udGVudF9sZW5ndGgiIDogMjMKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiX2luZGV4IiA6ICJhcnRpY2xlX2luZGV4IiwKICAgICAgICAiX3R5cGUiIDogImFydGljbGUiLAogICAgICAgICJfaWQiIDogImRHc1VfR29CanRZVmFXRzRDUGR5IiwKICAgICAgICAiX3Njb3JlIiA6IDEuMCwKICAgICAgICAiX3NvdXJjZSIgOiB7CiAgICAgICAgICAicGF0aCIgOiAiQzpcXFVzZXJzXFxhcnRodVxcc291cmNlXFxyZXBvc1xcRWxhc3RpY1NlYXJjaFBERkV4YW1wbGVcXEVsYXN0aWNTZWFyY2hUZXN0XFxFeGFtcGxlUERGc1xcenhjLnBkZiIsCiAgICAgICAgICAiYXR0YWNobWVudCIgOiB7CiAgICAgICAgICAgICJjb250ZW50X3R5cGUiIDogImFwcGxpY2F0aW9uL3BkZiIsCiAgICAgICAgICAgICJsYW5ndWFnZSIgOiAiaXMiLAogICAgICAgICAgICAiY29udGVudCIgOiAiWnhjIEFydGh1ciIsCiAgICAgICAgICAgICJjb250ZW50X2xlbmd0aCIgOiAxNQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSwKICAgICAgewogICAgICAgICJfaW5kZXgiIDogImFydGljbGVfaW5kZXgiLAogICAgICAgICJfdHlwZSIgOiAiYXJ0aWNsZSIsCiAgICAgICAgIl9pZCIgOiAiY21zVF9Hb0JqdFlWYVdHNDl2ZE8iLAogICAgICAgICJfc2NvcmUiIDogMS4wLAogICAgICAgICJfc291cmNlIiA6IHsKICAgICAgICAgICJwYXRoIiA6ICJDOlxcVXNlcnNcXGFydGh1XFxzb3VyY2VcXHJlcG9zXFxFbGFzdGljU2VhcmNoUERGRXhhbXBsZVxcRWxhc3RpY1NlYXJjaFRlc3RcXEV4YW1wbGVQREZzXFxhc2QucGRmIiwKICAgICAgICAgICJhdHRhY2htZW50IiA6IHsKICAgICAgICAgICAgImNvbnRlbnRfdHlwZSIgOiAiYXBwbGljYXRpb24vcGRmIiwKICAgICAgICAgICAgImxhbmd1YWdlIiA6ICJsdCIsCiAgICAgICAgICAgICJjb250ZW50IiA6ICJhc2QiLAogICAgICAgICAgICAiY29udGVudF9sZW5ndGgiIDogOAogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQogICAgXQogIH0KfQo=",
+		"responseMimeType": "application/json",
+		"serverError": null,
+		"success": true,
+		"successOrKnownError": true,
+		"uri": "http://localhost:9200/article_index/article/_search?pretty=true&error_trace=true&typed_keys=true"
+	},
+	"debugInformation": "Valid NEST response built from a successful low level call on POST: /article_index/article/_search?pretty=true&error_trace=true&typed_keys=true\r\n# Audit trail of this API call:\r\n - [1] HealthyResponse: Node: http://localhost:9200/ Took: 00:00:00.0090247\r\n# Request:\r\n{}\r\n# Response:\r\n{\n  \"took\" : 3,\n  \"timed_out\" : false,\n  \"_shards\" : {\n    \"total\" : 5,\n    \"successful\" : 5,\n    \"skipped\" : 0,\n    \"failed\" : 0\n  },\n  \"hits\" : {\n    \"total\" : 4,\n    \"max_score\" : 1.0,\n    \"hits\" : [\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"c2sT_GoBjtYVaWG4__f2\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\qwe.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"lt\",\n            \"content\" : \"qwe\",\n            \"content_length\" : 8\n          }\n        }\n      },\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"cWsS_GoBjtYVaWG4pfdW\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\ArthurNeto.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"pt\",\n            \"content\" : \"Arthur Santos Neto\",\n            \"content_length\" : 23\n          }\n        }\n      },\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"dGsU_GoBjtYVaWG4CPdy\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\zxc.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"is\",\n            \"content\" : \"Zxc Arthur\",\n            \"content_length\" : 15\n          }\n        }\n      },\n      {\n        \"_index\" : \"article_index\",\n        \"_type\" : \"article\",\n        \"_id\" : \"cmsT_GoBjtYVaWG49vdO\",\n        \"_score\" : 1.0,\n        \"_source\" : {\n          \"path\" : \"C:\\\\Users\\\\arthu\\\\source\\\\repos\\\\ElasticSearchPDFExample\\\\ElasticSearchTest\\\\ExamplePDFs\\\\asd.pdf\",\n          \"attachment\" : {\n            \"content_type\" : \"application/pdf\",\n            \"language\" : \"lt\",\n            \"content\" : \"asd\",\n            \"content_length\" : 8\n          }\n        }\n      }\n    ]\n  }\n}\n\r\n",
+	"isValid": true,
+	"originalException": null,
+	"serverError": null
+}

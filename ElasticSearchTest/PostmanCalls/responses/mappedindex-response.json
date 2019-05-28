@@ -1,0 +1,1790 @@
+{
+	"indices": {
+		"article_index": {
+			"mappings": {
+				"article": {
+					"allField": {
+						"analyzer": null,
+						"enabled": false,
+						"omitNorms": null,
+						"searchAnalyzer": null,
+						"similarity": null,
+						"store": null,
+						"storeTermVectorOffsets": null,
+						"storeTermVectorPayloads": null,
+						"storeTermVectorPositions": null,
+						"storeTermVectors": null
+					},
+					"dateDetection": null,
+					"dynamic": null,
+					"dynamicDateFormats": null,
+					"dynamicTemplates": null,
+					"fieldNamesField": null,
+					"indexField": null,
+					"meta": null,
+					"numericDetection": null,
+					"properties": {
+						"Nest.PropertyName": {
+							"dynamic": null,
+							"enabled": null,
+							"properties": {
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "author",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"fielddata": null,
+									"index": null,
+									"nullValue": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "containsMetadata",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "content",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"coerce": null,
+									"fielddata": null,
+									"ignoreMalformed": null,
+									"index": null,
+									"nullValue": null,
+									"scalingFactor": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "content_length",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "content_type",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"fielddata": null,
+									"format": null,
+									"ignoreMalformed": null,
+									"index": null,
+									"nullValue": null,
+									"precisionStep": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "date",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"fielddata": null,
+									"index": null,
+									"nullValue": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "detect_language",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"coerce": null,
+									"fielddata": null,
+									"ignoreMalformed": null,
+									"index": null,
+									"nullValue": null,
+									"scalingFactor": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "indexed_chars",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "keywords",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "language",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "name",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "title",
+										"property": null
+									}
+								}
+							},
+							"copyTo": null,
+							"fields": null,
+							"similarity": null,
+							"store": null,
+							"localMetadata": null,
+							"name": {
+								"cacheableExpression": false,
+								"expression": null,
+								"name": "attachment",
+								"property": null
+							}
+						},
+						"Nest.PropertyName": {
+							"analyzer": null,
+							"boost": null,
+							"eagerGlobalOrdinals": null,
+							"fielddata": null,
+							"fielddataFrequencyFilter": null,
+							"index": null,
+							"indexOptions": null,
+							"indexPhrases": null,
+							"indexPrefixes": null,
+							"norms": null,
+							"positionIncrementGap": null,
+							"searchAnalyzer": null,
+							"searchQuoteAnalyzer": null,
+							"termVector": null,
+							"copyTo": null,
+							"fields": {
+								"Nest.PropertyName": {
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"ignoreAbove": 256,
+									"index": null,
+									"indexOptions": null,
+									"normalizer": null,
+									"norms": null,
+									"nullValue": null,
+									"splitQueriesOnWhitespace": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "keyword",
+										"property": null
+									}
+								}
+							},
+							"similarity": null,
+							"store": null,
+							"localMetadata": null,
+							"name": {
+								"cacheableExpression": false,
+								"expression": null,
+								"name": "content",
+								"property": null
+							}
+						},
+						"Nest.PropertyName": {
+							"analyzer": "windows_path_hierarchy_analyzer",
+							"boost": null,
+							"eagerGlobalOrdinals": null,
+							"fielddata": null,
+							"fielddataFrequencyFilter": null,
+							"index": null,
+							"indexOptions": null,
+							"indexPhrases": null,
+							"indexPrefixes": null,
+							"norms": null,
+							"positionIncrementGap": null,
+							"searchAnalyzer": null,
+							"searchQuoteAnalyzer": null,
+							"termVector": null,
+							"copyTo": null,
+							"fields": null,
+							"similarity": null,
+							"store": null,
+							"localMetadata": null,
+							"name": {
+								"cacheableExpression": false,
+								"expression": null,
+								"name": "path",
+								"property": null
+							}
+						}
+					},
+					"routingField": null,
+					"sizeField": null,
+					"sourceField": null
+				}
+			}
+		}
+	},
+	"mapping": {
+		"allField": {
+			"analyzer": null,
+			"enabled": false,
+			"omitNorms": null,
+			"searchAnalyzer": null,
+			"similarity": null,
+			"store": null,
+			"storeTermVectorOffsets": null,
+			"storeTermVectorPayloads": null,
+			"storeTermVectorPositions": null,
+			"storeTermVectors": null
+		},
+		"dateDetection": null,
+		"dynamic": null,
+		"dynamicDateFormats": null,
+		"dynamicTemplates": null,
+		"fieldNamesField": null,
+		"indexField": null,
+		"meta": null,
+		"numericDetection": null,
+		"properties": {
+			"Nest.PropertyName": {
+				"dynamic": null,
+				"enabled": null,
+				"properties": {
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "author",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"boost": null,
+						"fielddata": null,
+						"index": null,
+						"nullValue": null,
+						"docValues": null,
+						"copyTo": null,
+						"fields": null,
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "containsMetadata",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "content",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"boost": null,
+						"coerce": null,
+						"fielddata": null,
+						"ignoreMalformed": null,
+						"index": null,
+						"nullValue": null,
+						"scalingFactor": null,
+						"docValues": null,
+						"copyTo": null,
+						"fields": null,
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "content_length",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "content_type",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"boost": null,
+						"fielddata": null,
+						"format": null,
+						"ignoreMalformed": null,
+						"index": null,
+						"nullValue": null,
+						"precisionStep": null,
+						"docValues": null,
+						"copyTo": null,
+						"fields": null,
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "date",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"boost": null,
+						"fielddata": null,
+						"index": null,
+						"nullValue": null,
+						"docValues": null,
+						"copyTo": null,
+						"fields": null,
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "detect_language",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"boost": null,
+						"coerce": null,
+						"fielddata": null,
+						"ignoreMalformed": null,
+						"index": null,
+						"nullValue": null,
+						"scalingFactor": null,
+						"docValues": null,
+						"copyTo": null,
+						"fields": null,
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "indexed_chars",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "keywords",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "language",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "name",
+							"property": null
+						}
+					},
+					"Nest.PropertyName": {
+						"analyzer": null,
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"fielddata": null,
+						"fielddataFrequencyFilter": null,
+						"index": null,
+						"indexOptions": null,
+						"indexPhrases": null,
+						"indexPrefixes": null,
+						"norms": null,
+						"positionIncrementGap": null,
+						"searchAnalyzer": null,
+						"searchQuoteAnalyzer": null,
+						"termVector": null,
+						"copyTo": null,
+						"fields": {
+							"Nest.PropertyName": {
+								"boost": null,
+								"eagerGlobalOrdinals": null,
+								"ignoreAbove": 256,
+								"index": null,
+								"indexOptions": null,
+								"normalizer": null,
+								"norms": null,
+								"nullValue": null,
+								"splitQueriesOnWhitespace": null,
+								"docValues": null,
+								"copyTo": null,
+								"fields": null,
+								"similarity": null,
+								"store": null,
+								"localMetadata": null,
+								"name": {
+									"cacheableExpression": false,
+									"expression": null,
+									"name": "keyword",
+									"property": null
+								}
+							}
+						},
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "title",
+							"property": null
+						}
+					}
+				},
+				"copyTo": null,
+				"fields": null,
+				"similarity": null,
+				"store": null,
+				"localMetadata": null,
+				"name": {
+					"cacheableExpression": false,
+					"expression": null,
+					"name": "attachment",
+					"property": null
+				}
+			},
+			"Nest.PropertyName": {
+				"analyzer": null,
+				"boost": null,
+				"eagerGlobalOrdinals": null,
+				"fielddata": null,
+				"fielddataFrequencyFilter": null,
+				"index": null,
+				"indexOptions": null,
+				"indexPhrases": null,
+				"indexPrefixes": null,
+				"norms": null,
+				"positionIncrementGap": null,
+				"searchAnalyzer": null,
+				"searchQuoteAnalyzer": null,
+				"termVector": null,
+				"copyTo": null,
+				"fields": {
+					"Nest.PropertyName": {
+						"boost": null,
+						"eagerGlobalOrdinals": null,
+						"ignoreAbove": 256,
+						"index": null,
+						"indexOptions": null,
+						"normalizer": null,
+						"norms": null,
+						"nullValue": null,
+						"splitQueriesOnWhitespace": null,
+						"docValues": null,
+						"copyTo": null,
+						"fields": null,
+						"similarity": null,
+						"store": null,
+						"localMetadata": null,
+						"name": {
+							"cacheableExpression": false,
+							"expression": null,
+							"name": "keyword",
+							"property": null
+						}
+					}
+				},
+				"similarity": null,
+				"store": null,
+				"localMetadata": null,
+				"name": {
+					"cacheableExpression": false,
+					"expression": null,
+					"name": "content",
+					"property": null
+				}
+			},
+			"Nest.PropertyName": {
+				"analyzer": "windows_path_hierarchy_analyzer",
+				"boost": null,
+				"eagerGlobalOrdinals": null,
+				"fielddata": null,
+				"fielddataFrequencyFilter": null,
+				"index": null,
+				"indexOptions": null,
+				"indexPhrases": null,
+				"indexPrefixes": null,
+				"norms": null,
+				"positionIncrementGap": null,
+				"searchAnalyzer": null,
+				"searchQuoteAnalyzer": null,
+				"termVector": null,
+				"copyTo": null,
+				"fields": null,
+				"similarity": null,
+				"store": null,
+				"localMetadata": null,
+				"name": {
+					"cacheableExpression": false,
+					"expression": null,
+					"name": "path",
+					"property": null
+				}
+			}
+		},
+		"routingField": null,
+		"sizeField": null,
+		"sourceField": null
+	},
+	"mappings": {
+		"article_index": {
+			"mappings": {
+				"article": {
+					"allField": {
+						"analyzer": null,
+						"enabled": false,
+						"omitNorms": null,
+						"searchAnalyzer": null,
+						"similarity": null,
+						"store": null,
+						"storeTermVectorOffsets": null,
+						"storeTermVectorPayloads": null,
+						"storeTermVectorPositions": null,
+						"storeTermVectors": null
+					},
+					"dateDetection": null,
+					"dynamic": null,
+					"dynamicDateFormats": null,
+					"dynamicTemplates": null,
+					"fieldNamesField": null,
+					"indexField": null,
+					"meta": null,
+					"numericDetection": null,
+					"properties": {
+						"Nest.PropertyName": {
+							"dynamic": null,
+							"enabled": null,
+							"properties": {
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "author",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"fielddata": null,
+									"index": null,
+									"nullValue": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "containsMetadata",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "content",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"coerce": null,
+									"fielddata": null,
+									"ignoreMalformed": null,
+									"index": null,
+									"nullValue": null,
+									"scalingFactor": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "content_length",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "content_type",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"fielddata": null,
+									"format": null,
+									"ignoreMalformed": null,
+									"index": null,
+									"nullValue": null,
+									"precisionStep": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "date",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"fielddata": null,
+									"index": null,
+									"nullValue": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "detect_language",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"boost": null,
+									"coerce": null,
+									"fielddata": null,
+									"ignoreMalformed": null,
+									"index": null,
+									"nullValue": null,
+									"scalingFactor": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "indexed_chars",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "keywords",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "language",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "name",
+										"property": null
+									}
+								},
+								"Nest.PropertyName": {
+									"analyzer": null,
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"fielddata": null,
+									"fielddataFrequencyFilter": null,
+									"index": null,
+									"indexOptions": null,
+									"indexPhrases": null,
+									"indexPrefixes": null,
+									"norms": null,
+									"positionIncrementGap": null,
+									"searchAnalyzer": null,
+									"searchQuoteAnalyzer": null,
+									"termVector": null,
+									"copyTo": null,
+									"fields": {
+										"Nest.PropertyName": {
+											"boost": null,
+											"eagerGlobalOrdinals": null,
+											"ignoreAbove": 256,
+											"index": null,
+											"indexOptions": null,
+											"normalizer": null,
+											"norms": null,
+											"nullValue": null,
+											"splitQueriesOnWhitespace": null,
+											"docValues": null,
+											"copyTo": null,
+											"fields": null,
+											"similarity": null,
+											"store": null,
+											"localMetadata": null,
+											"name": {
+												"cacheableExpression": false,
+												"expression": null,
+												"name": "keyword",
+												"property": null
+											}
+										}
+									},
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "title",
+										"property": null
+									}
+								}
+							},
+							"copyTo": null,
+							"fields": null,
+							"similarity": null,
+							"store": null,
+							"localMetadata": null,
+							"name": {
+								"cacheableExpression": false,
+								"expression": null,
+								"name": "attachment",
+								"property": null
+							}
+						},
+						"Nest.PropertyName": {
+							"analyzer": null,
+							"boost": null,
+							"eagerGlobalOrdinals": null,
+							"fielddata": null,
+							"fielddataFrequencyFilter": null,
+							"index": null,
+							"indexOptions": null,
+							"indexPhrases": null,
+							"indexPrefixes": null,
+							"norms": null,
+							"positionIncrementGap": null,
+							"searchAnalyzer": null,
+							"searchQuoteAnalyzer": null,
+							"termVector": null,
+							"copyTo": null,
+							"fields": {
+								"Nest.PropertyName": {
+									"boost": null,
+									"eagerGlobalOrdinals": null,
+									"ignoreAbove": 256,
+									"index": null,
+									"indexOptions": null,
+									"normalizer": null,
+									"norms": null,
+									"nullValue": null,
+									"splitQueriesOnWhitespace": null,
+									"docValues": null,
+									"copyTo": null,
+									"fields": null,
+									"similarity": null,
+									"store": null,
+									"localMetadata": null,
+									"name": {
+										"cacheableExpression": false,
+										"expression": null,
+										"name": "keyword",
+										"property": null
+									}
+								}
+							},
+							"similarity": null,
+							"store": null,
+							"localMetadata": null,
+							"name": {
+								"cacheableExpression": false,
+								"expression": null,
+								"name": "content",
+								"property": null
+							}
+						},
+						"Nest.PropertyName": {
+							"analyzer": "windows_path_hierarchy_analyzer",
+							"boost": null,
+							"eagerGlobalOrdinals": null,
+							"fielddata": null,
+							"fielddataFrequencyFilter": null,
+							"index": null,
+							"indexOptions": null,
+							"indexPhrases": null,
+							"indexPrefixes": null,
+							"norms": null,
+							"positionIncrementGap": null,
+							"searchAnalyzer": null,
+							"searchQuoteAnalyzer": null,
+							"termVector": null,
+							"copyTo": null,
+							"fields": null,
+							"similarity": null,
+							"store": null,
+							"localMetadata": null,
+							"name": {
+								"cacheableExpression": false,
+								"expression": null,
+								"name": "path",
+								"property": null
+							}
+						}
+					},
+					"routingField": null,
+					"sizeField": null,
+					"sourceField": null
+				}
+			}
+		}
+	},
+	"apiCall": {
+		"auditTrail": [{
+				"ended": "2019-05-28T01:34:54.8759377Z",
+				"event": 10,
+				"exception": null,
+				"node": {
+					"clientNode": false,
+					"deadUntil": "0001-01-01T00:00:00",
+					"failedAttempts": 0,
+					"holdsData": true,
+					"httpEnabled": true,
+					"id": null,
+					"ingestEnabled": false,
+					"isAlive": true,
+					"isResurrected": false,
+					"masterEligible": true,
+					"masterOnlyNode": false,
+					"name": null,
+					"settings": {},
+					"uri": "http://localhost:9200/"
+				},
+				"path": "article_index/_mapping/article?pretty=true&error_trace=true",
+				"started": "2019-05-28T01:34:54.7975268Z"
+			}
+		],
+		"debugInformation": "Successful low level call on GET: /article_index/_mapping/article?pretty=true&error_trace=true\r\n# Server indicated deprecations:\r\n- 299 Elasticsearch-6.8.0-65b6179 \"[types removal] The parameter include_type_name should be explicitly specified in get mapping requests to prepare for 7.0. In 7.0 include_type_name will default to 'false', which means responses will omit the type name in mapping definitions.\"\r\n# Audit trail of this API call:\r\n - [1] HealthyResponse: Node: http://localhost:9200/ Took: 00:00:00.0784109\r\n# Request:\r\n<Request stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>\r\n# Response:\r\n{\n  \"article_index\" : {\n    \"mappings\" : {\n      \"article\" : {\n        \"_all\" : {\n          \"enabled\" : false\n        },\n        \"properties\" : {\n          \"attachment\" : {\n            \"properties\" : {\n              \"author\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"containsMetadata\" : {\n                \"type\" : \"boolean\"\n              },\n              \"content\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"content_length\" : {\n                \"type\" : \"long\"\n              },\n              \"content_type\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"date\" : {\n                \"type\" : \"date\"\n              },\n              \"detect_language\" : {\n                \"type\" : \"boolean\"\n              },\n              \"indexed_chars\" : {\n                \"type\" : \"long\"\n              },\n              \"keywords\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"language\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"name\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"title\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              }\n            }\n          },\n          \"content\" : {\n            \"type\" : \"text\",\n            \"fields\" : {\n              \"keyword\" : {\n                \"type\" : \"keyword\",\n                \"ignore_above\" : 256\n              }\n            }\n          },\n          \"path\" : {\n            \"type\" : \"text\",\n            \"analyzer\" : \"windows_path_hierarchy_analyzer\"\n          }\n        }\n      }\n    }\n  }\n}\n\r\n",
+		"deprecationWarnings": ["299 Elasticsearch-6.8.0-65b6179 \"[types removal] The parameter include_type_name should be explicitly specified in get mapping requests to prepare for 7.0. In 7.0 include_type_name will default to 'false', which means responses will omit the type name in mapping definitions.\""],
+		"httpMethod": 0,
+		"httpStatusCode": 200,
+		"originalException": null,
+		"requestBodyInBytes": null,
+		"responseBodyInBytes": "ewogICJhcnRpY2xlX2luZGV4IiA6IHsKICAgICJtYXBwaW5ncyIgOiB7CiAgICAgICJhcnRpY2xlIiA6IHsKICAgICAgICAiX2FsbCIgOiB7CiAgICAgICAgICAiZW5hYmxlZCIgOiBmYWxzZQogICAgICAgIH0sCiAgICAgICAgInByb3BlcnRpZXMiIDogewogICAgICAgICAgImF0dGFjaG1lbnQiIDogewogICAgICAgICAgICAicHJvcGVydGllcyIgOiB7CiAgICAgICAgICAgICAgImF1dGhvciIgOiB7CiAgICAgICAgICAgICAgICAidHlwZSIgOiAidGV4dCIsCiAgICAgICAgICAgICAgICAiZmllbGRzIiA6IHsKICAgICAgICAgICAgICAgICAgImtleXdvcmQiIDogewogICAgICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJrZXl3b3JkIiwKICAgICAgICAgICAgICAgICAgICAiaWdub3JlX2Fib3ZlIiA6IDI1NgogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAiY29udGFpbnNNZXRhZGF0YSIgOiB7CiAgICAgICAgICAgICAgICAidHlwZSIgOiAiYm9vbGVhbiIKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICJjb250ZW50IiA6IHsKICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJ0ZXh0IiwKICAgICAgICAgICAgICAgICJmaWVsZHMiIDogewogICAgICAgICAgICAgICAgICAia2V5d29yZCIgOiB7CiAgICAgICAgICAgICAgICAgICAgInR5cGUiIDogImtleXdvcmQiLAogICAgICAgICAgICAgICAgICAgICJpZ25vcmVfYWJvdmUiIDogMjU2CiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICJjb250ZW50X2xlbmd0aCIgOiB7CiAgICAgICAgICAgICAgICAidHlwZSIgOiAibG9uZyIKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICJjb250ZW50X3R5cGUiIDogewogICAgICAgICAgICAgICAgInR5cGUiIDogInRleHQiLAogICAgICAgICAgICAgICAgImZpZWxkcyIgOiB7CiAgICAgICAgICAgICAgICAgICJrZXl3b3JkIiA6IHsKICAgICAgICAgICAgICAgICAgICAidHlwZSIgOiAia2V5d29yZCIsCiAgICAgICAgICAgICAgICAgICAgImlnbm9yZV9hYm92ZSIgOiAyNTYKICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgImRhdGUiIDogewogICAgICAgICAgICAgICAgInR5cGUiIDogImRhdGUiCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAiZGV0ZWN0X2xhbmd1YWdlIiA6IHsKICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJib29sZWFuIgogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgImluZGV4ZWRfY2hhcnMiIDogewogICAgICAgICAgICAgICAgInR5cGUiIDogImxvbmciCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAia2V5d29yZHMiIDogewogICAgICAgICAgICAgICAgInR5cGUiIDogInRleHQiLAogICAgICAgICAgICAgICAgImZpZWxkcyIgOiB7CiAgICAgICAgICAgICAgICAgICJrZXl3b3JkIiA6IHsKICAgICAgICAgICAgICAgICAgICAidHlwZSIgOiAia2V5d29yZCIsCiAgICAgICAgICAgICAgICAgICAgImlnbm9yZV9hYm92ZSIgOiAyNTYKICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgImxhbmd1YWdlIiA6IHsKICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJ0ZXh0IiwKICAgICAgICAgICAgICAgICJmaWVsZHMiIDogewogICAgICAgICAgICAgICAgICAia2V5d29yZCIgOiB7CiAgICAgICAgICAgICAgICAgICAgInR5cGUiIDogImtleXdvcmQiLAogICAgICAgICAgICAgICAgICAgICJpZ25vcmVfYWJvdmUiIDogMjU2CiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICJuYW1lIiA6IHsKICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJ0ZXh0IiwKICAgICAgICAgICAgICAgICJmaWVsZHMiIDogewogICAgICAgICAgICAgICAgICAia2V5d29yZCIgOiB7CiAgICAgICAgICAgICAgICAgICAgInR5cGUiIDogImtleXdvcmQiLAogICAgICAgICAgICAgICAgICAgICJpZ25vcmVfYWJvdmUiIDogMjU2CiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICJ0aXRsZSIgOiB7CiAgICAgICAgICAgICAgICAidHlwZSIgOiAidGV4dCIsCiAgICAgICAgICAgICAgICAiZmllbGRzIiA6IHsKICAgICAgICAgICAgICAgICAgImtleXdvcmQiIDogewogICAgICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJrZXl3b3JkIiwKICAgICAgICAgICAgICAgICAgICAiaWdub3JlX2Fib3ZlIiA6IDI1NgogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgImNvbnRlbnQiIDogewogICAgICAgICAgICAidHlwZSIgOiAidGV4dCIsCiAgICAgICAgICAgICJmaWVsZHMiIDogewogICAgICAgICAgICAgICJrZXl3b3JkIiA6IHsKICAgICAgICAgICAgICAgICJ0eXBlIiA6ICJrZXl3b3JkIiwKICAgICAgICAgICAgICAgICJpZ25vcmVfYWJvdmUiIDogMjU2CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInBhdGgiIDogewogICAgICAgICAgICAidHlwZSIgOiAidGV4dCIsCiAgICAgICAgICAgICJhbmFseXplciIgOiAid2luZG93c19wYXRoX2hpZXJhcmNoeV9hbmFseXplciIKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KICAgIH0KICB9Cn0K",
+		"responseMimeType": "application/json",
+		"serverError": null,
+		"success": true,
+		"successOrKnownError": true,
+		"uri": "http://localhost:9200/article_index/_mapping/article?pretty=true&error_trace=true"
+	},
+	"debugInformation": "Valid NEST response built from a successful low level call on GET: /article_index/_mapping/article?pretty=true&error_trace=true\r\n# Server indicated deprecations:\r\n- 299 Elasticsearch-6.8.0-65b6179 \"[types removal] The parameter include_type_name should be explicitly specified in get mapping requests to prepare for 7.0. In 7.0 include_type_name will default to 'false', which means responses will omit the type name in mapping definitions.\"\r\n# Audit trail of this API call:\r\n - [1] HealthyResponse: Node: http://localhost:9200/ Took: 00:00:00.0784109\r\n# Request:\r\n<Request stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>\r\n# Response:\r\n{\n  \"article_index\" : {\n    \"mappings\" : {\n      \"article\" : {\n        \"_all\" : {\n          \"enabled\" : false\n        },\n        \"properties\" : {\n          \"attachment\" : {\n            \"properties\" : {\n              \"author\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"containsMetadata\" : {\n                \"type\" : \"boolean\"\n              },\n              \"content\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"content_length\" : {\n                \"type\" : \"long\"\n              },\n              \"content_type\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"date\" : {\n                \"type\" : \"date\"\n              },\n              \"detect_language\" : {\n                \"type\" : \"boolean\"\n              },\n              \"indexed_chars\" : {\n                \"type\" : \"long\"\n              },\n              \"keywords\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"language\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"name\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              },\n              \"title\" : {\n                \"type\" : \"text\",\n                \"fields\" : {\n                  \"keyword\" : {\n                    \"type\" : \"keyword\",\n                    \"ignore_above\" : 256\n                  }\n                }\n              }\n            }\n          },\n          \"content\" : {\n            \"type\" : \"text\",\n            \"fields\" : {\n              \"keyword\" : {\n                \"type\" : \"keyword\",\n                \"ignore_above\" : 256\n              }\n            }\n          },\n          \"path\" : {\n            \"type\" : \"text\",\n            \"analyzer\" : \"windows_path_hierarchy_analyzer\"\n          }\n        }\n      }\n    }\n  }\n}\n\r\n",
+	"isValid": true,
+	"originalException": null,
+	"serverError": null
+}
